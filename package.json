@@ -3,22 +3,13 @@
   "version": "1.0.7",
   "description": "Convert any html content or html page to PDF",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "mocha tests/*.js -R spec --ui bdd --timeout 5000"
-  },
   "author": "mrafiqk",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.7.2",
     "handlebars": "^4.7.6",
-    "puppeteer": "^5.1.0"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^8.0.1"
+    "puppeteer-core": "7.0.0",
+    "chrome-aws-lambda": "7.0.0"
   },
   "keywords": [
     "html",
@@ -29,10 +20,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrafiqk/html-pdf-node.git"
+    "url": "git+https://github.com/fredericocurti/html-pdf-node.git"
   },
   "bugs": {
-    "url": "https://github.com/mrafiqk/html-pdf-node/issues"
+    "url": "https://github.com/fredericocurti/html-pdf-node/issues"
   },
-  "homepage": "https://github.com/mrafiqk/html-pdf-node#readme"
+  "homepage": "https://github.com/fredericocurti/html-pdf-node"
 }
