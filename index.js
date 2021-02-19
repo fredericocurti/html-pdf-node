@@ -1,7 +1,6 @@
 const chromium = require('chrome-aws-lambda');
 var Promise = require('bluebird');
 const hb = require('handlebars')
-const chromium = require('chrome-aws-lambda');
 
 module.exports
 async function generatePdf(file, options, callback) {
